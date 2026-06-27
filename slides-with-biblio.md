@@ -588,5 +588,84 @@ Based on the p-value (0.0000) and an alpha level of 0.05, we reject the null hyp
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 19: ANOVA Table / Pr(>F) for Pressure (P) and Text evaluation: Is this factor, P significant for Machine 1?
+
+```
+                   PR(>F)
+C(Pressure)  1.210086e-99
+```
+
+**Conclusion:** Is Pressure (P) significant for Machine 1's Resistance? **Yes**
+
+Based on the p-value for Pressure (0.0000) and an alpha level of 0.05, we determine that Pressure is a statistically significant factor affecting Machine 1's Resistance.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 20: ANOVA Table / Pr(>F) for Temperature (T) and Text evaluation: Is this factor, T significant for Machine 1?
+
+```
+                      PR(>F)
+C(Temperature)  1.621921e-99
+```
+
+**Conclusion:** Is Temperature (T) significant for Machine 1's Resistance? **Yes**
+
+Based on the p-value for Temperature (0.0000) and an alpha level of 0.05, we determine that Temperature is a statistically significant factor affecting Machine 1's Resistance.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 21: ANOVA Table / Pr(>F) for Pressure*Temperature (P*T) and Text evaluation: Is this factor, P*T significant for Machine 1?
+
+```
+                                  PR(>F)
+C(Pressure):C(Temperature)  6.372593e-29
+```
+
+**Conclusion:** Is Pressure*Temperature (P*T) interaction significant for Machine 1's Resistance? **Yes**
+
+Based on the p-value for the interaction (0.0000) and an alpha level of 0.05, we determine that the Pressure*Temperature interaction is a statistically significant factor affecting Machine 1's Resistance.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 22: Interaction Plot visualization showing the relationship between Pressure and Temperature on Machine 1 Resistance.
+
+**Key Observations:**
+- This plot visually represents how the effect of one factor (e.g., Pressure) on Resistance changes across different levels of another factor (e.g., Temperature).
+- Non-parallel lines suggest a significant interaction effect.
+:::
+
+::: {.column width="50%"}
+![](media/pics/machine1_interaction_plot.png)
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
