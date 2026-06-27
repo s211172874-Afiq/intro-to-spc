@@ -484,5 +484,109 @@ Conclusion: Machine 3 IS capable under these conditions (Cpk >= 1.33).
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 13: T-Test distribution curve chart for Machine 1 vs Machine 2 (P=100, T=303)
+
+**Key Observations:**
+- The shaded orange areas represent the rejection regions, where the null hypothesis (no difference between machine means) would be rejected.
+- The dashed green line indicates the calculated t-statistic from our data.
+- If the green line falls within the orange regions, we conclude there is a significant difference.
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_cond1_distribution.png)
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 14: Calculate and display the p-value and t-statistic for the t-test Machine 1 vs Machine 2 (P=100, T=303)
+
+```
+T-statistic: -1.026
+P-value: 0.3064
+```
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 15: Text evaluation: Is there a true difference at (P=100, T=303)?
+
+```
+Conclusion: No
+```
+
+Based on the p-value (0.3064) and an alpha level of 0.05, we fail to reject the null hypothesis. Thus, there is no statistically significant difference between the means of Machine 1 and Machine 2 under these conditions.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 16: T-Test distribution curve chart for Machine 1 vs Machine 2 (P=300, T=373)
+
+**Key Observations:**
+- The shaded orange areas represent the rejection regions, where the null hypothesis (no difference between machine means) would be rejected.
+- The dashed green line indicates the calculated t-statistic from our data.
+- If the green line falls within the orange regions, we conclude there is a significant difference.
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_cond2_distribution.png)
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 17: Calculate and display the p-value and t-statistic for the t-test Machine 1 vs Machine 2 (P=300, T=373)
+
+```
+T-statistic: 24.420
+P-value: 0.0000
+```
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Slide 18: Text evaluation: Is there a true difference at (P=300, T=373)?
+
+```
+Conclusion: Yes
+```
+
+Based on the p-value (0.0000) and an alpha level of 0.05, we reject the null hypothesis. Thus, there is a statistically significant difference between the means of Machine 1 and Machine 2 under these conditions.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder -->
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
