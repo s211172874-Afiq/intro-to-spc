@@ -695,6 +695,39 @@ Visualizations from Slides 13 and 16 provide detailed views.
 </div>
 </div>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="summary-t-test-analysis-machine-1-vs-machine-2-1">Summary:
+T-Test Analysis (Machine 1 vs Machine 2)</h3>
+<p>Our independent two-sample t-tests revealed significant differences
+in measurement between Machine 1 and Machine 2 under both tested
+conditions.</p>
+<p><strong>Condition 1: Pressure = 100kPa, Temperature = 303K</strong> -
+<strong>T-statistic:</strong> -11.74 (very strong evidence against null)
+- <strong>P-value:</strong> &lt; 0.0001 - <strong>Conclusion:</strong>
+Yes, there is a true difference (p &lt; 0.05).</p>
+<p><strong>Condition 2: Pressure = 300kPa, Temperature = 373K</strong> -
+<strong>T-statistic:</strong> -3.23 - <strong>P-value:</strong> 0.0013 -
+<strong>Conclusion:</strong> Yes, there is a true difference (p &lt;
+0.05).</p>
+<p>Both conditions indicate that the mean measurements produced by
+Machine 1 and Machine 2 are statistically different, suggesting a need
+for further investigation into their operational parameters or
+calibration.</p>
+</div><div class="column" style="width:50%;">
+<!-- You can add an image here, e.g., ![](media/pics/ttest_summary.png) -->
+<p style="text-align: center; font-size: 1.2em; color: #555;">
+Visualizations from Slides 13 and 16 provide detailed views.
+</p>
+<iframe data-src="media/plots/t_test_p100_t303.html" width="100%" height="250px" style="border:none;" scrolling="no">
+</iframe>
+<iframe data-src="media/plots/t_test_p300_t373.html" width="100%" height="250px" style="border:none;" scrolling="no">
+</iframe>
+</div>
+</div>
+</section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
 <div id="refs" class="references csl-bib-body" role="list">
