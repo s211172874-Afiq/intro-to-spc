@@ -259,5 +259,92 @@ Both conditions indicate that the mean measurements produced by Machine 1 and Ma
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22: Interaction Plot (Machine 1)
+
+This plot visualizes the interaction effects of Pressure and Temperature on Machine 1's Resistance. The non-parallel lines suggest that the effect of one factor (e.g., Pressure) on Resistance depends on the level of the other factor (Temperature).
+
+However, our ANOVA results indicated that the interaction (P*T) was *not* statistically significant (p-value = 0.83 >= 0.05), despite the visual appearance of non-parallel lines. This highlights the importance of statistical tests alongside visual inspection.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/interaction_plot.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22: Interaction Plot (Machine 1)
+
+This plot visualizes the interaction effects of Pressure and Temperature on Machine 1's Resistance. The non-parallel lines suggest that the effect of one factor (e.g., Pressure) on Resistance depends on the level of the other factor (Temperature).
+
+However, our ANOVA results indicated that the interaction (P*T) was *not* statistically significant (p-value = 0.83 >= 0.05), despite the visual appearance of non-parallel lines. This highlights the importance of statistical tests alongside visual inspection.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/interaction_plot.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Summary: T-Test Analysis (Machine 1 vs Machine 2)
+
+Our independent two-sample t-tests revealed significant differences in measurement between Machine 1 and Machine 2 under both tested conditions.
+
+**Condition 1: Pressure = 100kPa, Temperature = 303K**
+- **T-statistic:** -11.74 (very strong evidence against null)
+- **P-value:** < 0.0001
+- **Conclusion:** Yes, there is a true difference (p < 0.05).
+
+**Condition 2: Pressure = 300kPa, Temperature = 373K**
+- **T-statistic:** -3.23
+- **P-value:** 0.0013
+- **Conclusion:** Yes, there is a true difference (p < 0.05).
+
+Both conditions indicate that the mean measurements produced by Machine 1 and Machine 2 are statistically different, suggesting a need for further investigation into their operational parameters or calibration.
+:::
+
+::: {.column width="50%"}
+<!-- You can add an image here, e.g., ![](media/pics/ttest_summary.png) -->
+<p style="text-align: center; font-size: 1.2em; color: #555;">Visualizations from Slides 13 and 16 provide detailed views.</p>
+
+<iframe 
+  data-src="media/plots/t_test_p100_t303.html" 
+  width="100%" 
+  height="250px" 
+  style="border:none;" 
+  scrolling="no">
+</iframe>
+
+<iframe 
+  data-src="media/plots/t_test_p300_t373.html" 
+  width="100%" 
+  height="250px" 
+  style="border:none;" 
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
